@@ -1,0 +1,59 @@
+
+<html>
+<head>
+<title>深深葬玉,郁郁埋香!</title>
+<script type="text/javascript" src="js/jquery-1.11.2.js"></script>
+<script type="text/javascript" src="js/sszy.js"></script>
+<link rel="stylesheet" type="text/css" href="style/index.css"/>
+</head>
+<body id="body1" >
+	<div id="index_b">
+	</div>
+	  <div id="index_top">
+		<input type="button" value="登录" class="showlogin">
+	  </div>
+	
+
+  <div id="div2">
+    <h3>用户登录</h3>
+	<input type="button"  class="cbutton" /> 
+    <div id="div3"></div>
+    <form action="check.jsp" method="post" >
+      <table >
+        <tr>
+          <td>用户名：</td>
+          <td colspan=2><input type="text" value="UserName" name="aid"  onfocus="cleart(this)"></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>密&nbsp;&nbsp;码：</td>
+          <td colspan=2><input type="password" value="password" name="password" onFocus="cleart(this)"></td>
+        </tr>
+        <tr style="border-bottom:1px red solid;">
+          <td >验证码:</td>
+          <td ><input class="ha" type="text" value="验证码" name="code" onFocus="cleart(this)"></td>
+          <td><img  src="image.jsp"></td>
+        </tr>
+        <tr>
+          <td colspan=3 style="height:15px;margin:0px;"><hr></td>
+        </tr>
+        <tr style="background:none;">
+          <td colspan=3 class="ma" >保存密码:
+            <select name="savetime">
+              <option value="不保存">不保存
+              <option value="<%=24*3600%>">保存一天
+              <option value="<%=7*24*3600%>">保存一周
+              <option value="<%=30*24*3600%>">保存一月
+              <option value="<%=360*24*3600%>">保存一年
+            </select></td>
+        </tr>
+        <tr>
+          <td colspan=3 class="sub"><input  type="submit" value="用户登录" >
+            <input  type="reset" value="信息重置" >          </td>
+        </tr>
+      </table>
+	 
+    </form>
+  </div>
+</body>
+</html>

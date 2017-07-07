@@ -1,0 +1,282 @@
+* {
+	padding:0;
+	margin:0 auto ;
+}
+li {
+	list-style:none;
+}
+body {
+		background:url(../images/sszy_background.jpg) no-repeat center top fixed ;
+		text-align:center;
+		min-width:1200px;
+		min-height:760px;
+		width:100%;
+		height:100%;
+		
+	}
+#index_b {
+	border-bottom:1px red double ;
+	text-align:center;
+	filter:alpha(opacity=50); /*IE滤镜，透明度50%*/
+	opacity:0.5;
+	background:green;
+	height:50px;
+	width:100%;
+	min-width:1200px;
+	position:absolute;
+	top:0;
+	left:0;
+}
+#index_top {
+	width:920px;
+	height:50px;
+	text-align:right;
+	margin:0 auto;
+	
+}
+
+#index_top em {
+	line-height:50px;
+	font-size:26px;
+	font-weight:bolder;
+	float:left;
+}
+#index_top input {
+	margin-top:5px;
+	position:relative;
+	text-align:center;
+	margin:5 auto;
+	width:130px;
+	height:40px;
+	border:1px orange solid;
+	cursor:pointer ;
+	outline:none;
+	z-index:3;
+}
+
+#div1 {
+	position:absolute;
+	width:520px;
+	height:350px;
+	z-index:2;
+	border:3px #FF6600 solid;
+	overflow:hidden;
+	
+}
+
+#div2 {
+	position:absolute;
+	width:520px;
+	height:350px;
+	z-index:2;
+	border:3px #FF6600 solid;
+	overflow:hidden;
+	display:none;
+}
+#div3{
+	position:absolute;
+	float:left;
+	top:0;
+	left:0;
+	background:#FF6600;
+	filter:alpha(opacity=60); /*IE滤镜，透明度50%*/
+	opacity:0.6;
+	width:520px;
+	height:50px ;
+	text-align:left;
+	z-index:-1;
+}
+#div2 .cbutton {
+	background:url(../images/close.jpg) no-repeat center;
+	float:right;
+	width:127px;
+	height:50px;
+	z-index:2;
+	cursor:pointer ;
+	margin-top:-50px;
+}
+#div2 h3 {
+	display:inline-block;
+	width:390px;
+	height:50px;
+	float:left;
+	font-weight:700;
+	font-size:27px;
+	font-style:italic;
+	border:none;
+	background:none;
+	font-size:30px;
+	z-index:3;
+	text-align:left;
+	line-height:50px;
+	padding-left:30px;
+
+}
+input {
+	text-align:left;
+	width:220px;
+	height:36px;
+	background:none;
+	font-weight:700;
+	font-style:italic;
+	border:1px orange solid;
+	font-size:25px;
+	outline:none;
+}
+#div2 form {
+	clear:both;
+	padding-top:45px;
+	margin-left:-56px;
+	background:none;
+}
+#div2 td {
+	height:36px;
+	line-height:36px;
+	font-size:22px;
+}
+input.ha {
+	width:96px;
+	height:36px;
+	line-height:36px;
+	background:none;
+	border:1px orange solid;
+	text-align:left;
+	margin:0 auto;
+	vertical-align:middle;
+	
+}
+img {
+	width:120px;
+	height:36px;
+	border:1px orange solid;
+}
+.sub {
+	text-align:center;
+}
+.sub input {
+	width:150px;
+	color:#FF6600;
+	height:36px;
+	font-weight:600;
+	font-style:italic;
+	text-align:center;
+	background:none;
+	cursor:pointer ;
+	outline:none;
+}
+.ma {
+	background:none;
+	border:none;
+}
+.ma select {
+	width:220px;
+	height:32px;
+	line-height:36px;
+	font-size:16px;
+	background:none;
+	border:1px orange solid;
+	color:red;
+	font-weight:600;
+	outline:none;
+}
+tr {
+	font-weight:700;
+	font-style:italic;
+	color:green;
+}
+#main{
+	min-width:1000px;
+	width:100%;
+	min-height:690px;
+	height:auto;
+	
+}
+
+#main_left{
+	max-width:222px;
+	width:100%;
+	min-height:690px;
+	height:auto;
+	float:left;
+}
+#menu {
+	float:left;
+	width:220px;
+	font-size:16px;
+	color:red;
+	text-align:left;
+	margin-left:6px;
+}
+.ui-widget-content {
+	background:none;
+}
+#menu h3{
+	background:none;
+	border-width:2px;
+}
+#menu div li {
+	color:#000;
+	font-size:20px;
+	font-weight:500;
+}
+
+#menu div li a{
+	text-decoration:none;
+	
+}
+#menu div li a:hover{
+	text-decoration:none;
+	color:#3399FF;
+	
+}
+#menu div li a:active {
+	font-weight:bold;
+	color:#000000;
+}
+#menu div li a:visited {
+	font-weight:bold;
+	color:#000000;
+}
+
+#main_right{
+	position:relative;
+	margin-right:6px;
+	float:right;
+	border:1px red solid;
+	min-height:690px;
+	height:100%;
+	overflow:hidden;
+}
+#right_title {
+	background:#000;
+	min-width:960px;
+	filter:alpha(opacity=60); /*IE滤镜，透明度50%*/
+	opacity:0.6;
+	width:100%;
+	height:26px;
+	z-index:0;
+
+}
+#spans {
+	margin-top:6px;
+	min-width:960px;
+	width:100%;
+	height:36px;
+	z-index:3;
+	border-bottom:1px #ccc solid;
+	padding-left:15px;
+}
+#spans span {
+	margin-left:8px;
+	text-align:center;
+	line-height:36px;
+	float:left;
+	height:36px;
+	font-size:16px;
+	font-weight:bolder;
+}
+ #spans span.usp{
+	float:right;
+	margin-right:320px;
+	color:#FF0099;
+}
